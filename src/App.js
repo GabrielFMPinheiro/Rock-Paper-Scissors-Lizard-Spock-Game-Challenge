@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from 'react';
+
+import { Header, Players, Rules, Game, ResetBtn } from './components';
+import { MainWrapper } from './App.elements'
+import { GameContext } from './contexts/GameContext';
 
 function App() {
+  const { player } = useContext(GameContext)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainWrapper>
+      <Header />
+      { player ?  <Game />: <Players /> }
+      <Rules />
+      <ResetBtn />
+    </MainWrapper>
   );
 }
 
