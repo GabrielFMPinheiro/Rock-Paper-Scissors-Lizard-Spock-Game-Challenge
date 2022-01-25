@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/css/main.ff77defa.css",
+    "main.js": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/js/main.15fedfc6.js",
+    "static/media/logo-bonus.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/logo-bonus.9bf8aeb80c2526dee7c67aa5c1b74ccc.svg",
+    "static/media/image-rules-bonus.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/image-rules-bonus.513320fbf32ba9e4a81fba903a77b85f.svg",
+    "static/media/icon-lizard.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/icon-lizard.0f83914cca1adc9454d1bdceb17610b0.svg",
+    "static/media/icon-paper.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg",
+    "index.html": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/index.html",
+    "static/media/icon-spock.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/icon-spock.f4d7eee84cf50913d73967948d97d63a.svg",
+    "static/media/icon-scissors.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg",
+    "static/media/icon-rock.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg",
+    "static/media/bg-pentagon-mobile.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/bg-pentagon-mobile.0caad9a7aa1b8a35c69db52b5ab77f46.svg",
+    "static/media/bg-pentagon-desktop.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/bg-pentagon-desktop.f585b07c52c19dad4539fd791ebeed73.svg",
+    "static/media/icon-close.svg": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/media/icon-close.7616e95379ebbbc0eda063a3ba01ea85.svg",
+    "main.ff77defa.css.map": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/css/main.ff77defa.css.map",
+    "main.15fedfc6.js.map": "/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/static/js/main.15fedfc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff77defa.css",
+    "static/js/main.15fedfc6.js"
+  ]
+}
