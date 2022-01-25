@@ -1,4 +1,4 @@
-# Frontend Mentor - Rock, Paper, Scissors solution
+# Frontend Mentor - Rock, Paper, Scissors, Lizard, Spock solution
 
 This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH).
 
@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/rock-paper-scissors-lizard-spock-game-challenge-sjA0CaEUq](https://www.frontendmentor.io/solutions/rock-paper-scissors-lizard-spock-game-challenge-sjA0CaEUq)
+- Live Site URL: [https://gabrielfmpinheiro.github.io/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/](https://gabrielfmpinheiro.github.io/Rock-Paper-Scissors-Lizard-Spock-Game-Challenge/)
 
 ## My process
 
