@@ -1,12 +1,10 @@
-import tw, { styled } from 'twin.macro';
-import { RulesBtn } from '../Rules/Rules.elements';
+// Libs
+import tw from "twin.macro";
 
+// Components
+import { RulesBtn } from "../Rules/Rules.elements";
 
-export const ResetButton = styled(RulesBtn)`
-  ${
-    tw`
-      mt-1
-      lg:right-44
-    `
-  }
-`
+export const ResetButton = tw(RulesBtn)`
+  lg:right-44
+  mt-1
+`;

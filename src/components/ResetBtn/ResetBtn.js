@@ -1,12 +1,16 @@
-import React, { useContext } from 'react';
-import { GameContext } from '../../contexts/GameContext';
-import { ResetButton } from './ResetBtn.elements';
+// Libs
+import React, { useContext } from "react";
+
+// Context
+import AppContext from "../../contexts/AppContext/AppContext";
+
+// Component
+import { ResetButton } from "./ResetBtn.elements";
 
 function ResetBtn() {
-  const { setScore } = useContext(GameContext)
+  const { updateScore } = useContext(AppContext);
 
-  return (
-  <ResetButton onClick={() => setScore(0)}>reset</ResetButton>);
+  return <ResetButton onClick={() => updateScore(0)}>Reset</ResetButton>;
 }
 
 export default ResetBtn;

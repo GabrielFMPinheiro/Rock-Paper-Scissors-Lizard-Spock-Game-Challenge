@@ -1,16 +1,22 @@
-import React, { useContext } from 'react';
+// Libs
+import React, { useContext } from "react";
 
-import { Header, Players, Rules, Game, ResetBtn } from './components';
-import { MainWrapper } from './App.elements'
-import { GameContext } from './contexts/GameContext';
+// Components
+import { Header, Weapons, Rules, GameBoard, ResetBtn } from "./components";
+import { MainWrapper } from "./App.elements";
+
+//Context
+import AppContext from "./contexts/AppContext/AppContext";
 
 function App() {
-  const { player } = useContext(GameContext)
+  const { humanWeapon } = useContext(AppContext);
 
   return (
     <MainWrapper>
       <Header />
-      { player ?  <Game />: <Players /> }
+      {/* Start the game when the user has chosen a button */}
+      {humanWeapon ? <GameBoard /> : <Weapons />}
+
       <Rules />
       <ResetBtn />
     </MainWrapper>

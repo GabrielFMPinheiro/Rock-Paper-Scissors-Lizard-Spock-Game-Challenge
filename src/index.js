@@ -1,12 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import GameProvider from './contexts/GameContext'
+// Libs
+import React from "react";
+import ReactDOM from "react-dom";
+
+//Css
+import "./index.css";
+
+//Components
+import App from "./App";
+import AppProvider from "../src/contexts/AppContext/AppProvider";
 
 ReactDOM.render(
-  <GameProvider>
+  <AppProvider>
     <App />
-  </GameProvider>,
-  document.getElementById('root')
+  </AppProvider>,
+  document.getElementById("root")
 );

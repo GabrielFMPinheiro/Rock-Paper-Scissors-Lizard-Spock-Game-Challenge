@@ -1,23 +1,34 @@
-import React, { useContext } from 'react';
-import { GameContext } from '../../contexts/GameContext';
+// Libs
+import React, { useContext } from "react";
 
-import logo from '../../images//logo-bonus.svg'
+// Context
+import AppContext from "../../contexts/AppContext/AppContext";
 
-import { Wrapper, Logo, ScoreWrapper, ScoreTitle, Score } from './Header.elements';
+//Assets
+import logo from "../../images//logo-bonus.svg";
+
+//Components
+import {
+  Wrapper,
+  Logo,
+  ScoreWrapper,
+  ScoreTitle,
+  Score,
+} from "./Header.elements";
 
 function Header() {
-  const { score } = useContext(GameContext)
+  const { score } = useContext(AppContext);
 
   return (
-  <Wrapper>
-    <Logo src={logo} alt='logo'/>
+    <Wrapper>
+      <Logo src={logo} alt="logo" />
 
-    <ScoreWrapper>
-      <ScoreTitle>score</ScoreTitle>
-      <Score>{ score }</Score>
-    </ScoreWrapper>
-  </Wrapper>
-);
+      <ScoreWrapper>
+        <ScoreTitle>Score</ScoreTitle>
+        <Score>{score}</Score>
+      </ScoreWrapper>
+    </Wrapper>
+  );
 }
 
 export default Header;

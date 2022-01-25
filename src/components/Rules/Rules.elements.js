@@ -1,106 +1,94 @@
 import tw, { styled } from "twin.macro";
 
-export const RulesBtn = styled.button`
-  ${
-    tw`
-      border
-      rounded-lg
-      text-white
-      border-white
-      tracking-widest
-      text-lg
-      uppercase
-      bg-transparent
-      w-32
-      h-10
-      mt-12
-      mb-3
-      duration-300
-      ease-in-out
-      hover:text-main-grad-2nd
-      hover:bg-white
-      lg:absolute
-      lg:m-0
-      lg:right-8
-      lg:bottom-8
-    `
-  }
-`
+export const RulesBtn = tw.button`
+  bg-transparent
+  border
+  border-white
+  duration-300
+  ease-in-out
+  h-10
+  hover:bg-white
+  hover:text-main-grad-2nd
+  lg:absolute
+  lg:bottom-8
+  lg:m-0
+  lg:right-8
+  mb-3
+  mt-12
+  rounded-lg
+  text-lg
+  text-white
+  tracking-widest
+  uppercase
+  w-32
+`;
 
-export const Modal = styled.div`
-  ${
-    tw`
-      absolute
-      inset-0
-      z-10
-      bg-black
-      opacity-40
-    `
-  }
-`
+export const Modal = tw.div`
+  absolute
+  bg-black
+  inset-0
+  opacity-40
+  z-10
+`;
 
 export const RulesWrapper = styled.div`
-  ${
-    tw`
+  ${tw`
+      absolute
       bg-white
       flex
       flex-col
-      sm:flex-row
-      items-center
-      absolute
-      z-20
       inset-0
-      sm:flex-wrap
-      sm:w-100
-      sm:h-115
+      items-center
       rounded-md
-      sm:px-8
+      sm:flex-row
+      sm:flex-wrap
+      sm:h-115
       sm:inset-auto
+      sm:px-8
       sm:top-1/2
-    `
-  }
+      sm:w-100
+      z-20
+    `}
+
   @media screen and (min-width: 640px) {
-    transform: translateY(-50%)
-  }  
-`
-
-export const Title = styled.h1`
-  ${
-    tw`
-      uppercase
-      mt-24
-      sm:m-0
-      text-3.5xl
-      text-dark-blue
-      sm:order-1
-    `
+    transform: translateY(-50%);
   }
-`
+`;
 
-export const RulesImg = styled.img`
-  ${
-    tw`
-      mt-24
-      sm:m-0
-      w-85
-      h-78
-      sm:order-3
-      sm:mb-8
-    `
-  }
-`
+export const Title = tw.h1`
+  mt-24
+  sm:m-0
+  sm:order-1
+  text-3.5xl
+  text-dark-blue
+  uppercase
+`;
+
+export const RulesImg = tw.img`
+  h-78
+  mt-24
+  sm:m-0
+  sm:mb-8
+  sm:order-3
+  w-85
+`;
 
 export const CloseBtn = styled.img`
-  ${
-    tw`
-      mt-36
-      mb-20
-      sm:m-0
-      w-5
-      h-5
+  ${tw`
       cursor-pointer
-      sm:order-2
+      h-5
+      mb-20
+      mt-36
+      sm:m-0
       sm:ml-auto
-    `
+      sm:order-2
+      w-5
+      duration-300
+  `};
+
+  &:hover {
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    -moz-filter: brightness(40%);
   }
-`
+`;
