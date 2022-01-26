@@ -33,11 +33,11 @@ function Weapons() {
 
   return (
     <Wrapper>
-      <ScissorsBtn id="scissors" onClick={btnHandler} />
-      <SpockBtn id="spock" onClick={btnHandler} />
-      <PaperBtn id="paper" onClick={btnHandler} />
-      <LizardBtn id="lizard" onClick={btnHandler} />
-      <RockBtn id="rock" onClick={btnHandler} />
+      <ScissorsBtn id="scissors" aria-label="scissors" onClick={btnHandler} />
+      <SpockBtn id="spock" aria-label="spock" onClick={btnHandler} />
+      <PaperBtn id="paper" aria-label="paper" onClick={btnHandler} />
+      <LizardBtn id="lizard" aria-label="lizard" onClick={btnHandler} />
+      <RockBtn id="rock" aria-label="rock" onClick={btnHandler} />
 
       <ImgWrapper>
         <Img
