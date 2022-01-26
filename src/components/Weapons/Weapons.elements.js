@@ -8,7 +8,7 @@ import paper from "../../images/icon-paper.svg";
 import lizard from "../../images/icon-lizard.svg";
 import rock from "../../images/icon-rock.svg";
 
-export const Wrapper = tw.section`
+export const Wrapper = tw.div`
   w-76
   lg:w-120
   h-77

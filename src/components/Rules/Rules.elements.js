@@ -55,7 +55,7 @@ export const RulesWrapper = styled.div`
   }
 `;
 
-export const Title = tw.h1`
+export const Title = tw.h2`
   mt-24
   sm:m-0
   sm:order-1

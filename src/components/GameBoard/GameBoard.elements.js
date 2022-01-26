@@ -82,7 +82,7 @@ export const WinnerWrapper = tw.div`
   w-full
 `;
 
-export const Winner = tw.h1`
+export const Winner = tw.h2`
   font-bold
   text-5.5xl
   text-white

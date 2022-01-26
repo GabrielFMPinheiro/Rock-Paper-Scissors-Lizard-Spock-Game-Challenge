@@ -50,7 +50,7 @@ export const ScoreTitle = tw.span`
   uppercase
 `;
 
-export const Score = tw.span`
+export const Score = tw.h1`
   font-bold
   leading-none
   md:text-6.5xl
